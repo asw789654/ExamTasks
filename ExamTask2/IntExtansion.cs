@@ -2,9 +2,9 @@
 {
     public static class IntExtansion
     {
-        public static string IntInWords(this int str)
+        public static string IntInWords(this int n)
         {
-            var n = Convert.ToInt32(Console.ReadLine());
+
             var num = 0;
             string newstr = string.Empty;
             while (n > 0)
